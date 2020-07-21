@@ -17,8 +17,14 @@ li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 20px;
     text-decoration: none;
+}
+
+li a:hover {
+    background-color: #159957;
+    text-decoration: none;
+    
 }
 
 li a:hover:not(.active) {
